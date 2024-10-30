@@ -1,0 +1,16 @@
+.box
+{
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 100px;
+    background-color: blueviolet;
+    border-radius: 12px;
+    border: solid green;
+}
+.box:hover{
+    transform: skewy(60deg);
+    background-color: red;
+    opacity: 50%;
+    transition: 5s;
+}

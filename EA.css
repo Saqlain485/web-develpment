@@ -1,0 +1,15 @@
+
+body{
+    font-family: 'Trebuchet MS';
+}
+.text
+{
+    border: 2px solid brown;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text:hover{
+    overflow: visible;
+}
